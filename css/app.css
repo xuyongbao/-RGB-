@@ -1,0 +1,203 @@
+.bgColor{
+    background: #589ee0;
+}
+@font-face {
+  font-family: 'light_iconfont';  /* project id 382256 */
+  src: url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.eot');
+  src: url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.svg#iconfont') format('svg');
+}
+.light_icon{
+    font-family:"light_iconfont" !important;
+    font-size:26px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#fff;
+}
+/* 头部控制 */
+.control-label{
+    height:1rem;
+    margin-top:.4rem;
+    overflow:hidden;
+    font-size:.18rem;
+}
+.control-label>div{
+    float:left;
+    width:30%;
+    height:1rem;
+    text-align: center;
+}
+.label_icon{
+    display: inline-block;
+    height:.7rem;
+    border-radius:50%;
+    line-height: .7rem;
+    width:.7rem;
+    font-size:.5rem;
+}
+.control-label>div.on .label_icon{
+    color:#fff;
+    background: #589ee0;
+}
+.control-label>div.off .label_icon{
+    color:#589ee0;
+    background: #fff;
+}
+.label_txt{
+    margin-top:.1rem;
+}
+/* 设备列表 */
+.device_label{
+    font-size: .16rem;
+    margin-top:.4rem;
+}
+.device_title{
+    height:.4rem;
+    line-height: .4rem;
+    text-indent: .2rem;
+} 
+.device_list{
+    width:100%;
+    overflow: hidden;
+    color:#666;
+}
+.device_details{
+    width:40%;
+    float:left;
+    background: rgba(255,255,255,.95);
+    margin:2%;
+    padding:3%;
+    border-radius:.1rem;
+}
+.device_details.on{
+    background: rgba(255,255,255,.95);
+}
+.device_details.off{
+    background: rgba(255,255,255,.95);
+}
+.device_details.off_line{
+    background: rgba(255,255,255,.6);
+}
+.device_details.off_line .status_btn{
+    display: none;
+}
+.place{
+    height:.35rem;
+    line-height: .35rem;
+    text-align: left;
+    overflow: hidden;
+}
+.place span{
+    float:left;
+}
+.place .light_icon{
+    color:#666;
+}
+.place_txt {
+    margin-left:5px;
+}
+.time{
+    height:.4rem;
+}
+.power_status{
+    height:.22rem;
+    line-height: .22rem;
+    overflow: hidden;
+}
+.status_txt{
+    float:left;
+    margin-left:.07rem;
+}
+.status_btn{
+    float:right;
+    width:.43rem;
+    height:.22rem;
+    border-radius:.11rem;
+    background: #999;
+    overflow: hidden;
+    position: relative;
+}
+.btn_bg{
+    width:100%;
+    height:100%;
+    background: #589ee0;
+    border-radius:.11rem;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out; /* Firefox 4 */
+    -webkit-transition: all .3s ease-out; /* Safari 和 Chrome */
+    -o-transition: all .3s ease-out; /* Opera */ 
+}
+.btn_circle{
+   position:absolute;
+   top:0;
+   right:0; 
+   height:.2rem;
+   width:.2rem;
+   border-radius:50%;
+   background: #fff;
+   border:.01rem solid #589ee0;
+}
+.status_btn.on .btn_bg{
+    top:0;
+    left:0;
+}
+.status_btn.on .btn_circle{
+   border:.01rem solid #589ee0;
+}
+.status_btn.off .btn_bg{
+    top:0;
+    left:-.21rem;
+}
+.status_btn.off .btn_circle{
+   border:.01rem solid #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/farbtastic.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/farbtastic.css" type="text/css" />
+    <link rel="stylesheet" href="./css/control.css" type="text/css" />
+</head>
+<body>
+    <!-- 颜色选择 -->
+    <div class="color_choise ">
+        <form class="hidden"><input type="text" id="color" name="color" value="1df000" /></form>
+
+        <div id="colorpicker"></div>
+    </div>
+    <!-- 亮度调节和开关灯 -->
+    <div class="lighteness hidden">
+        <div class="bulb light_icon off">&#xe631;</div>
+        <div class="bulb_light off">轻触开启</div>
+    </div>
+    <!-- 切换按钮 -->
+    <div class="light_switch off hidden">
+        <div class="switch_icon light_icon">&#xe60e;</div>
+        <div class="switch_txt">白灯</div><!-- RGB灯 -->
+    </div>
+    <div class="btm">
+        <div class="btm_left on">
+            <span class="btm_txt">调光</span>
+            <span class="btm_line"></span>
+        </div>
+        <div class="btm_right">
+            <span class="btm_txt">延时关</span>
+            <span class="btm_line"></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/control.js"> </script>
+</body>
+</html>

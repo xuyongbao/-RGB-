@@ -1,0 +1,130 @@
+
+@font-face {
+  font-family: 'light_iconfont';  /* project id 382256 */
+  src: url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.eot');
+  src: url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_382256_nz2tf4srjqhncdi.svg#iconfont') format('svg');
+}
+.light_icon{
+    font-family:"light_iconfont" !important;
+    font-size:26px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#fff;
+}
+.light{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50%;
+    left:50%;
+    margin-left:-24px;
+    margin-top:-25px;
+    overflow: hidden
+}
+.light .light_icon{
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+    width:100px;
+    font-size:50px;
+    margin-left:-25px;
+    margin-top:-25px;
+}
+.color_choise{
+    width:100%;
+    position: relative;
+    margin-top:1.3rem;
+    height:2.65rem;
+}
+
+/*底部按钮*/
+.btm{
+    height:0.6rem;
+    width:100%;
+    box-sizing: border-box;
+    border-top:2px solid #ccc;
+    position:fixed;
+    bottom:0;
+    left:0;
+    overflow: hidden;
+    font-size:.2rem;
+}
+.btm_left,.btm_right{
+    float:left;
+    width:50%;
+    height:100%;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}/* 
+.btm_left{
+    border-right:1px solid #ccc;
+} */
+.btm .btm_txt{
+    height:.5rem;
+    width:100%;
+    display: block;
+    line-height: .5rem;
+}
+.btm_left.on .btm_line,.btm_right.on .btm_line{
+    width:20%;
+    height:2px;
+    background: #ccc;
+    display: inline-block;
+    position: absolute;
+    top:.45rem;
+    left:50%;
+    margin-left:-10%;
+}
+/* 亮度调节 */
+.lighteness{
+    width:80%;
+    margin-left:10%;
+    position:relative;
+    margin-top:1.3rem;
+    height:2.65rem;
+}
+.lighteness .bulb{
+    width:100%;
+    height:2.25rem;
+    line-height: 2.25rem;
+    font-size:1.5rem;
+    text-align: center;
+    color:rgb(205,205,205);
+}
+.lighteness .bulb_light{
+    height:.4rem;
+    line-height: .4rem;
+    font-size:.25rem;
+    text-align: center;
+    text-indent: .5em;
+    margin-top:-.2rem;
+}
+.lighteness .bulb_light.on{
+    visibility: hidden;
+}
+/* 切换按钮 */
+.light_switch{
+    position: absolute;
+    bottom:1.1rem;
+    left:10%;
+    overflow: hidden;
+}
+.switch_icon{
+    font-size:.36rem;
+    float: left;
+    height:.36rem;
+    line-height: .36rem;
+}
+.switch_txt{
+    float:left;
+    height:.36rem;
+    line-height: .36rem;
+    font-size:.26rem;
+    margin-left:.1rem;
+}
