@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'list_icon';  /* project id 386266 */
+  src: url('https://at.alicdn.com/t/font_386266_v0ko4lltyz9z4cxr.eot');
+  src: url('https://at.alicdn.com/t/font_386266_v0ko4lltyz9z4cxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_386266_v0ko4lltyz9z4cxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_386266_v0ko4lltyz9z4cxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_386266_v0ko4lltyz9z4cxr.svg#iconfont') format('svg');
+}
+.list_icon{
+    font-family:"list_icon" !important;
+    font-size:46px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    background: #eee;
+}
+.list_group{
+    width:100%;
+}
+.list_group ul{
+    padding:0 2%;
+}
+.list{
+    margin-top:.06rem;
+    background: #fff;
+    border-radius: .05rem;
+    padding:.11rem;
+    height:.55rem;
+    color:#333;
+    overflow: hidden;
+}
+.list div{
+    float:left;
+}
+.list_pic{
+    height:.53rem;
+    width:.53rem;
+    border: .01rem solid #f2f1f6;
+    border-radius: .05rem;
+    background:url('../image/light.png');
+    background-size: contain;
+    background-repeat:no-repeat;  
+}
+.list_txt{
+    height:.55rem;
+    line-height: .55rem;
+    margin-left:.15rem;
+    font-size:.16rem; 
+}
+.list .list_arrow{
+    font-size: .3rem;
+    float:right;
+    height:.55rem;
+    line-height: .55rem;
+}
+.add_device{
+    margin: 0 2%;
+    background: #fff;
+    color:#d1d1d1;
+    font-size:.18rem;
+    height:.55rem;
+    line-height: .55rem;
+    text-align: center;
+    margin-top:.06rem;
+    border-radius:.05rem;
+}

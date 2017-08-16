@@ -16,6 +16,12 @@ $(function(){
     //点击跳转控制页面
     $(".device_list").on("click",function(){
         window.location.href = "./control.html";
-    })
+    });
+    $(".label_left,.label_right").on("touchstart",function(){
+        $(this).addClass("on").removeClass("off");
+    });
+    $(document).on("touchend",function(){
+        $(".label_left,.label_right").addClass("off").removeClass("on");
+    });
 
 })
